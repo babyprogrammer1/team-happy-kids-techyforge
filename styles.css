@@ -7,7 +7,7 @@ body {
     padding: 0 ;
 }
 
-h1, h2 {
+h1, h2,h3 {
     font-family: 'Luckiest Guy', cursive;
     color: #ff6f61;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -17,7 +17,7 @@ h1, h2 {
 .hero {
     background-color: #ffdd57;
     padding: 60px 20px;
-    animation: bounce 2s infinite;
+    animation: bounce 5s infinite;
 }
 .hero h1 {
     font-size: 3.5rem;
@@ -36,4 +36,33 @@ h1, h2 {
     50% {
         transform: translateY(-30px);
     }
+}
+/*Why-us section*/
+.why-us{
+    background-color: #a2d5f2;
+    padding: 40px 20px;
+    animation: bounce 5s infinite;
+}
+.why-us h2{
+    font-size: 3rem;
+    margin:5px;
+}
+.why-us p{
+font-size: 1.2rem;
+}
+/*Featured Toys*/
+.featured{
+    background-color: #ff6f61;
+    padding: 20px 20px;
+    animation: bounce 5s infinite;
+}
+.featured h3{
+    color: yellow;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.featured p{
+    font-size: 1.6rem;
+    margin: 10px;
+    padding: 10px;
 }
